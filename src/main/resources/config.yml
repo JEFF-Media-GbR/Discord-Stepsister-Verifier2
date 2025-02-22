@@ -1,0 +1,86 @@
+bot-token: "..."
+
+sql:
+  url: "jdbc:mysql://10.0.0.105:3306/discord_stepsister_verifier"
+  user: "discord_stepsister_verifier"
+  pass: "..."
+
+channels:
+  #verifypurchase-category: 869110862550540298
+  verifypurchase-category: 869110862550540298
+  verification-logs-channel: 869134227357175828
+  #premium-support-channel: 826934723875045416
+  create-tickets-channel: 863103918828683297
+  admin-verification-channel: 1010090483109863444
+
+roles:
+  supporter: 734584172840091769 # Will be pinged when verification goes wrong
+  buyer: 823904480412172288
+
+plugins:
+  AngelChest:
+    name: AngelChest Plus
+    roles:
+      - 799838124036325377
+    channels:
+      - 799837429690269737
+    shops:
+      spigot: 88214
+  Drop2InventoryPlus:
+    name: Drop2Inventory Plus
+    roles:
+      - 804040912854319124
+    channels:
+      - 804041090994143292
+    shops:
+      spigot: 87784
+  AutoShulker:
+    roles:
+      - 817842750657265754
+    channels:
+      - 817842887034273872
+    shops:
+      spigot: 89807
+      polymart: 1074
+  JukeBoxPlus:
+    roles:
+      - 804432128216530964
+    channels:
+      - 804431978723803216
+    shops:
+      spigot: 87750
+  RePlant:
+    roles:
+      - 864855375206285313
+    channels:
+      - 864855583688360007
+    shops:
+      spigot: 92668
+  AutoComposter:
+    roles:
+      - 880721924542591028
+    channels:
+      - 880722109796585522
+    shops:
+      spigot: 95013
+  FilteredHoppers:
+    roles:
+      - 885141971851685958
+    channels:
+      - 885142269286567966
+    shops:
+      spigot: 96037
+  StackResize:
+    roles:
+      - 985919217696145498
+    channels:
+      - 987665495278899200
+    shops:
+      spigot: 102376
+  Daytime:
+    roles:
+      - 999568577411694632
+    channels:
+      - 999570009082834994
+    shops:
+      spigot: 102748
